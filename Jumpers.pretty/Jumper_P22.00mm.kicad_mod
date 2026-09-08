@@ -1,0 +1,112 @@
+(footprint "Jumper_P22.00mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 11.5 -0.75 0)
+		(layer "F.SilkS")
+		(uuid "8d327089-e224-474c-b2bb-86f5052a1bb2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Jumper_P22.00mm"
+		(at 5.08 2.37 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "392e6f7a-a408-4a5a-9fd7-6ed543c979e3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ba644ab3-2319-4a06-8e5c-bdf6fd908e66")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b18fdaee-c7c1-4663-a40c-8f428e6b66a6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 1 0)
+		(end 21 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f539d6ef-aea1-495a-abec-cd29a9e61997")
+	)
+	(fp_rect
+		(start -1 -1)
+		(end 23 1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "6370ce9b-beec-4e50-9b2d-be40108dea5b")
+	)
+	(fp_line
+		(start 1 0)
+		(end 21 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "8963475e-cd02-4771-bce9-569693ee9d15")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 11 2 0)
+		(layer "F.Fab")
+		(uuid "ce615b3f-76b8-4bd6-93b8-e54b3f23434d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2b675dee-1cc6-4fbf-a046-bad7246e1f1c")
+	)
+	(pad "2" thru_hole circle
+		(at 22 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7bbac746-5293-4a6c-ab4a-afc84257d8dc")
+	)
+	(embedded_fonts no)
+)
