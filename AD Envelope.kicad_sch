@@ -6768,6 +6768,16 @@
 		)
 		(uuid "03a3bc57-c14b-446c-8a85-cc33cd0244f0")
 	)
+	(text "Threshold / peak trim"
+		(exclude_from_sim no)
+		(at 352.298 150.876 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "abbd748c-f15b-4b98-97af-46ad5391bb4a")
+	)
 	(junction
 		(at 358.14 306.07)
 		(diameter 0)
@@ -6779,12 +6789,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "04805733-4009-48fe-bdc5-146bc96dc6d6")
-	)
-	(junction
-		(at 346.71 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "04a2fb3c-8b73-44b4-8fdf-d6d9ee1e7c94")
 	)
 	(junction
 		(at 358.14 212.09)
@@ -7416,7 +7420,7 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 123.19) (xy 346.71 143.51)
+			(xy 346.71 123.19) (xy 346.71 147.32)
 		)
 		(stroke
 			(width 0)
@@ -7726,16 +7730,6 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 143.51) (xy 346.71 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19e63bd3-9b2d-43dd-812b-26297f843f87")
-	)
-	(wire
-		(pts
 			(xy 400.05 165.1) (xy 403.86 165.1)
 		)
 		(stroke
@@ -7966,16 +7960,6 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 143.51) (xy 354.33 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e2a3652-12ec-414d-8ce5-737714c3a948")
-	)
-	(wire
-		(pts
 			(xy 347.98 300.99) (xy 347.98 306.07)
 		)
 		(stroke
@@ -7993,6 +7977,16 @@
 			(type default)
 		)
 		(uuid "2edd53e4-2edd-4363-8a6c-090e039ea874")
+	)
+	(wire
+		(pts
+			(xy 363.22 147.32) (xy 346.71 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fef404a-d373-4c51-8771-51bf08905745")
 	)
 	(wire
 		(pts
@@ -8333,16 +8327,6 @@
 			(type default)
 		)
 		(uuid "4a32b8dd-7441-40f7-ad98-b81817fa2110")
-	)
-	(wire
-		(pts
-			(xy 361.95 143.51) (xy 367.03 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b0cb589-79a8-4c24-a046-679626cbf30e")
 	)
 	(wire
 		(pts
@@ -9406,16 +9390,6 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 153.67) (xy 346.71 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "983d64c1-3490-4857-ac60-3a5404fda059")
-	)
-	(wire
-		(pts
 			(xy 510.54 154.94) (xy 510.54 153.67)
 		)
 		(stroke
@@ -9936,6 +9910,16 @@
 	)
 	(wire
 		(pts
+			(xy 367.03 151.13) (xy 367.03 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb739189-8b7f-465d-982d-391d91c8b3cb")
+	)
+	(wire
+		(pts
 			(xy 307.34 152.4) (xy 293.37 152.4)
 		)
 		(stroke
@@ -10033,6 +10017,16 @@
 			(type default)
 		)
 		(uuid "c0208c4b-82ca-4b85-bbef-60206d2a0567")
+	)
+	(wire
+		(pts
+			(xy 367.03 160.02) (xy 367.03 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1ff6a1d-6aec-4160-9e56-d0aaf5cd6fe6")
 	)
 	(wire
 		(pts
@@ -10636,7 +10630,7 @@
 	)
 	(wire
 		(pts
-			(xy 367.03 143.51) (xy 367.03 140.97)
+			(xy 367.03 140.97) (xy 367.03 143.51)
 		)
 		(stroke
 			(width 0)
@@ -11582,7 +11576,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0829e382-1cb1-4082-bef6-618b00f24724")
-		(property "Reference" "R29"
+		(property "Reference" "R28"
 			(at 411.48 200.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11646,7 +11640,7 @@
 		(instances
 			(project "AD Envelope"
 				(path "/d4f13430-11ea-4c6d-9d56-0f6de8356978"
-					(reference "R29")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -11743,7 +11737,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "094566b6-c21d-482e-b8a3-37e840873559")
-		(property "Reference" "R32"
+		(property "Reference" "R31"
 			(at 455.93 212.09 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11805,7 +11799,7 @@
 		(instances
 			(project "AD Envelope"
 				(path "/d4f13430-11ea-4c6d-9d56-0f6de8356978"
-					(reference "R32")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -11990,7 +11984,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e5110c5-f1c8-4451-9f49-5be56600f4da")
-		(property "Reference" "R22"
+		(property "Reference" "R21"
 			(at 349.25 205.74 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12052,7 +12046,7 @@
 		(instances
 			(project "AD Envelope"
 				(path "/d4f13430-11ea-4c6d-9d56-0f6de8356978"
-					(reference "R22")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -12425,7 +12419,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12813e91-c07c-4c0e-a008-9684c75e0c33")
-		(property "Reference" "R30"
+		(property "Reference" "R29"
 			(at 424.18 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12487,7 +12481,7 @@
 		(instances
 			(project "AD Envelope"
 				(path "/d4f13430-11ea-4c6d-9d56-0f6de8356978"
-					(reference "R30")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -13153,88 +13147,6 @@
 			(project "AD Envelope"
 				(path "/d4f13430-11ea-4c6d-9d56-0f6de8356978"
 					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 346.71 149.86 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1e2748c9-598d-4c65-98cc-5db27dfc6fb6")
-		(property "Reference" "R21"
-			(at 349.25 148.5899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "68k"
-			(at 349.25 151.1299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 348.488 149.86 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 346.71 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 346.71 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8b6ec0f0-ab8b-421a-95b0-0cf53849834b")
-		)
-		(pin "1"
-			(uuid "57b3fa4b-1662-4f12-84e8-f9f434ae92e3")
-		)
-		(instances
-			(project "AD Envelope"
-				(path "/d4f13430-11ea-4c6d-9d56-0f6de8356978"
-					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -14801,7 +14713,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c71cd0d-7b2a-4d09-88ff-24b676e79115")
-		(property "Reference" "R25"
+		(property "Reference" "R24"
 			(at 377.19 200.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14865,7 +14777,7 @@
 		(instances
 			(project "AD Envelope"
 				(path "/d4f13430-11ea-4c6d-9d56-0f6de8356978"
-					(reference "R25")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -15539,7 +15451,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3449b029-cf56-48c1-9f43-e138848d6ebd")
-		(property "Reference" "R31"
+		(property "Reference" "R30"
 			(at 431.8 200.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15603,7 +15515,7 @@
 		(instances
 			(project "AD Envelope"
 				(path "/d4f13430-11ea-4c6d-9d56-0f6de8356978"
-					(reference "R31")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -17257,7 +17169,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a44c941-b06b-40ae-90f9-49378a443b1b")
-		(property "Reference" "R33"
+		(property "Reference" "R32"
 			(at 464.82 224.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17321,7 +17233,7 @@
 		(instances
 			(project "AD Envelope"
 				(path "/d4f13430-11ea-4c6d-9d56-0f6de8356978"
-					(reference "R33")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -18257,7 +18169,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5af7772f-4b55-4b1b-acca-2adb0c2c522a")
-		(property "Reference" "R35"
+		(property "Reference" "R34"
 			(at 499.11 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18319,7 +18231,7 @@
 		(instances
 			(project "AD Envelope"
 				(path "/d4f13430-11ea-4c6d-9d56-0f6de8356978"
-					(reference "R35")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -18574,7 +18486,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f300388-00bf-4a8c-8fa2-7444a5a88e64")
-		(property "Reference" "R24"
+		(property "Reference" "R22"
 			(at 360.68 217.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18638,7 +18550,7 @@
 		(instances
 			(project "AD Envelope"
 				(path "/d4f13430-11ea-4c6d-9d56-0f6de8356978"
-					(reference "R24")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -19490,7 +19402,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72b19f42-5f12-4d96-9728-de50de9cbb83")
-		(property "Reference" "R34"
+		(property "Reference" "R33"
 			(at 499.11 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19552,7 +19464,7 @@
 		(instances
 			(project "AD Envelope"
 				(path "/d4f13430-11ea-4c6d-9d56-0f6de8356978"
-					(reference "R34")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -21951,7 +21863,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 346.71 156.21 0)
+		(at 367.03 161.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21961,8 +21873,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6062af3-47bf-4727-84ce-f57419026674")
-		(property "Reference" "#PWR038"
-			(at 346.71 162.56 0)
+		(property "Reference" "#PWR039"
+			(at 367.03 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21973,7 +21885,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 349.25 157.4799 0)
+			(at 369.57 162.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21984,7 +21896,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 346.71 156.21 0)
+			(at 367.03 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21995,7 +21907,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 346.71 156.21 0)
+			(at 367.03 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22006,7 +21918,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 346.71 156.21 0)
+			(at 367.03 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22022,7 +21934,7 @@
 		(instances
 			(project "AD Envelope"
 				(path "/d4f13430-11ea-4c6d-9d56-0f6de8356978"
-					(reference "#PWR038")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -22306,7 +22218,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac3467e0-e067-4249-82c9-7d7da72ef63e")
-		(property "Reference" "R26"
+		(property "Reference" "R25"
 			(at 377.19 114.3 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22368,7 +22280,7 @@
 		(instances
 			(project "AD Envelope"
 				(path "/d4f13430-11ea-4c6d-9d56-0f6de8356978"
-					(reference "R26")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -24243,7 +24155,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bda1dbe9-ff3e-4725-999a-0ffaca2b415d")
-		(property "Reference" "R28"
+		(property "Reference" "R27"
 			(at 407.67 158.75 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24305,7 +24217,7 @@
 		(instances
 			(project "AD Envelope"
 				(path "/d4f13430-11ea-4c6d-9d56-0f6de8356978"
-					(reference "R28")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -25058,7 +24970,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c87dad49-61a5-4910-90ef-21f1c4d6f453")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR038"
 			(at 358.14 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -25118,7 +25030,7 @@
 		(instances
 			(project "AD Envelope"
 				(path "/d4f13430-11ea-4c6d-9d56-0f6de8356978"
-					(reference "#PWR039")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -25352,6 +25264,91 @@
 			(project "AD Envelope"
 				(path "/d4f13430-11ea-4c6d-9d56-0f6de8356978"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer_Trim")
+		(at 367.03 147.32 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc87e1b3-9b00-485a-bb30-d15c0764a9ec")
+		(property "Reference" "RV7"
+			(at 369.57 146.0499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "50k"
+			(at 369.57 148.5899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296Y_Vertical"
+			(at 367.03 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 367.03 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Trim-potentiometer"
+			(at 367.03 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "7a4b0d7f-b155-4a9a-bca9-62338e5752f6")
+		)
+		(pin "1"
+			(uuid "f2345730-a99e-4ea5-a10c-485ca9e60530")
+		)
+		(pin "2"
+			(uuid "a08b04f8-7ecf-4d17-8413-60cf3ffc82f6")
+		)
+		(instances
+			(project "AD Envelope"
+				(path "/d4f13430-11ea-4c6d-9d56-0f6de8356978"
+					(reference "RV7")
 					(unit 1)
 				)
 			)
@@ -26441,7 +26438,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 358.14 143.51 270)
+		(at 367.03 156.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26452,27 +26449,29 @@
 		(fields_autoplaced yes)
 		(uuid "e3e098c0-8e8a-487d-bc94-df07f3315f37")
 		(property "Reference" "R23"
-			(at 358.14 137.16 90)
+			(at 369.57 154.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "10k"
-			(at 358.14 139.7 90)
+			(at 369.57 157.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 358.14 141.732 90)
+			(at 365.252 156.21 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26483,7 +26482,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 358.14 143.51 0)
+			(at 367.03 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26494,7 +26493,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 358.14 143.51 0)
+			(at 367.03 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27509,7 +27508,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6c38872-f4a8-44e7-ba2a-add075f92c08")
-		(property "Reference" "R27"
+		(property "Reference" "R26"
 			(at 400.05 205.74 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27571,7 +27570,7 @@
 		(instances
 			(project "AD Envelope"
 				(path "/d4f13430-11ea-4c6d-9d56-0f6de8356978"
-					(reference "R27")
+					(reference "R26")
 					(unit 1)
 				)
 			)
